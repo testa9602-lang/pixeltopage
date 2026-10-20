@@ -2,10 +2,8 @@
 
 A beginner-friendly portfolio website built with only HTML and CSS. No frameworks, no libraries.
 
-![Preview](preview.png)
-
-**Live demo:** https://YOUR_USERNAME.github.io/portfolio-website-html-css/
-**Video tutorial:** YOUR_YOUTUBE_VIDEO_LINK
+**Live demo:** https://testa9602-lang.github.io/pixeltopage/
+**Video tutorial:** https://www.youtube.com/watch?v=TdbbYoTd304
 
 ## What's inside
 - Sticky navbar with Flexbox
