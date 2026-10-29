@@ -7,8 +7,8 @@ Beginner-friendly projects from my YouTube channel. No frameworks, no libraries.
 | 1 | Responsive portfolio website (HTML & CSS) | [`part-1-portfolio/`](part-1-portfolio) |
 | 2 | AI chat widget + dark mode (JavaScript) | [`part-2-ai-chat/`](part-2-ai-chat) |
 
-**Live demos:** https://YOUR_USERNAME.github.io/YOUR_REPO/
-**Part 1 video:** YOUR_PART1_VIDEO_LINK
+**Live demos:** https://testa9602-lang.github.io/pixeltopage/
+**Part 1 video:** https://youtu.be/TdbbYoTd304
 **Part 2 video:** YOUR_PART2_VIDEO_LINK
 
 ## How to use
@@ -19,4 +19,4 @@ Beginner-friendly projects from my YouTube channel. No frameworks, no libraries.
 ## License
 MIT. Free to use for your own portfolio.
 
-Subscribe for more beginner coding tutorials: YOUR_CHANNEL_LINK
+Subscribe for more beginner coding tutorials: https://www.youtube.com/@PixelToPage
