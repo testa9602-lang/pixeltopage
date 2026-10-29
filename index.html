@@ -3,108 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alex Carter | Web Developer</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Portfolio Website Tutorials</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0b1020; color: #e8ecf8;
+           display: grid; place-items: center; min-height: 100vh; margin: 0; padding: 24px; }
+    main { max-width: 720px; text-align: center; }
+    a.card { display: block; margin: 16px 0; padding: 22px; border: 2px solid #22d3ee;
+             border-radius: 16px; color: inherit; text-decoration: none; }
+    a.card:hover { background: #141b34; }
+    small { color: #98a2c3; }
+  </style>
 </head>
 <body>
-
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <a href="#home" class="logo">alex<span>.dev</span></a>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <main>
-    <!-- HERO -->
-    <section id="home" class="hero">
-      <p class="hero-small">Hi, I'm Alex 👋</p>
-      <h1 class="typing">I build websites.</h1>
-      <p class="hero-text">
-        Front-end developer who turns ideas into clean,
-        fast and responsive web pages.
-      </p>
-      <a href="#projects" class="btn">See my work</a>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <h2 class="section-title">About me</h2>
-      <div class="about">
-        <div class="avatar">AC</div>
-        <div class="about-text">
-          <p>
-            I'm a self-taught developer who loves building
-            things for the web. I started with HTML and CSS,
-            and I'm learning something new every week.
-          </p>
-          <ul class="skills">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git</li>
-            <li>Responsive Design</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects">
-        <article class="card">
-          <div class="card-img grad-1">🌦️</div>
-          <h3>Weather App</h3>
-          <p>Search any city and see the live forecast.</p>
-          <a href="#" class="card-link">View project →</a>
-        </article>
-        <article class="card">
-          <div class="card-img grad-2">✅</div>
-          <h3>Todo List</h3>
-          <p>Add, finish and delete tasks. Saved in your browser.</p>
-          <a href="#" class="card-link">View project →</a>
-        </article>
-        <article class="card">
-          <div class="card-img grad-3">🛒</div>
-          <h3>Online Store</h3>
-          <p>A small shop page with a product grid and cart.</p>
-          <a href="#" class="card-link">View project →</a>
-        </article>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <h2 class="section-title">Contact</h2>
-      <form class="contact-form" action="#" method="post">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name"
-          placeholder="Your name" required>
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email"
-          placeholder="you@example.com" required>
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5"
-          placeholder="Say hello..." required></textarea>
-
-        <button type="submit" class="btn">Send message</button>
-      </form>
-    </section>
+    <h1>Portfolio Website Tutorials</h1>
+    <p>Live demos of the projects from the videos.</p>
+    <a class="card" href="part-1-portfolio/"><h2>Part 1: Responsive Portfolio</h2><small>HTML &amp; CSS</small></a>
+    <a class="card" href="part-2-ai-chat/"><h2>Part 2: AI Chat + Dark Mode</h2><small>JavaScript</small></a>
   </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>© 2026 Alex Carter. Built with HTML &amp; CSS.</p>
-  </footer>
-
 </body>
 </html>
